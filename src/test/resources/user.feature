@@ -1,0 +1,6 @@
+Feature: the users can be retrieved
+  Scenario: client makes call to GET /users
+    When the client calls /users
+    Then the client receives status code of 200
+    And the client receives users
+   
